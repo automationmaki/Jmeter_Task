@@ -1,0 +1,75 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1573940025502,280,HTTP Request_Получение гостевого токена,200,OK,Thread Group 2-1,text,true,,2916,441,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,280,0,59
+1573940025782,0,HTTP Request_Получение гостевого токена-0,200,OK,Thread Group 2-1,text,true,,1977,0,0,0,null,0,0,0
+1573940025500,280,UC_01_casexe_Получение гостевого токена,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,2916,441,1,2,null,280,2,59
+1573940025502,284,HTTP Request_Получение гостевого токена,200,OK,setUp Thread Group 1-1,text,true,,2930,441,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,283,0,58
+1573940025786,0,HTTP Request_Получение гостевого токена-0,200,OK,setUp Thread Group 1-1,text,true,,1991,0,0,0,null,0,0,0
+1573940025500,284,UC_01_casexe_Получение гостевого токена,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,2930,441,1,2,null,283,2,58
+1573940025783,226,HTTP Request_Регистрация нового игрока,201,Created,Thread Group 2-1,text,true,,3341,1177,1,2,http://test-api.d6.dev.devcaz.com/v2/players,225,0,0
+1573940026009,0,HTTP Request_Регистрация нового игрока-0,200,OK,Thread Group 2-1,text,true,,2152,0,0,0,null,0,0,0
+1573940025782,226,UC_02_casexe_Регистрация нового игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,3341,1177,1,2,null,225,1,0
+1573940025786,511,HTTP Request_Регистрация нового игрока,201,Created,setUp Thread Group 1-1,text,true,,3354,1177,1,2,http://test-api.d6.dev.devcaz.com/v2/players,511,0,0
+1573940026297,0,HTTP Request_Регистрация нового игрока-0,200,OK,setUp Thread Group 1-1,text,true,,2165,0,0,0,null,0,0,0
+1573940025786,511,UC_02_casexe_Регистрация нового игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,3354,1177,1,2,null,511,1,0
+1573940026009,425,HTTP Request_Авторизация под игроком,200,OK,Thread Group 2-1,text,true,,5526,693,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,424,0,0
+1573940026434,0,HTTP Request_Авторизация под игроком-0,200,OK,Thread Group 2-1,text,true,,2940,0,0,0,null,0,0,0
+1573940026009,425,UC_03_casexe_Авторизация под игроком,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,5526,693,1,2,null,424,0,0
+1573940026435,207,HTTP Request_Запрос профиля игрока,200,OK,Thread Group 2-1,text,true,,1079,1366,1,2,http://test-api.d6.dev.devcaz.com/v2/players/694,207,0,0
+1573940026434,207,UC_04_casexe_Запрос профиля игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,1079,1366,1,2,null,207,2,0
+1573940026298,416,HTTP Request_Авторизация под игроком,200,OK,setUp Thread Group 1-1,text,true,,5539,693,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,416,0,0
+1573940026714,0,HTTP Request_Авторизация под игроком-0,200,OK,setUp Thread Group 1-1,text,true,,2953,0,0,0,null,0,0,0
+1573940026298,416,UC_03_casexe_Авторизация под игроком,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,5539,693,1,2,null,416,1,0
+1573940026643,186,HTTP Request_Запрос списка игр игроком,200,OK,Thread Group 2-1,text,true,,1046,1360,1,2,http://test-api.d6.dev.devcaz.com/v2/games,186,0,0
+1573940026643,186,UC_05_casexe_Запрос списка игр игроком,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1046,1360,1,2,null,186,1,0
+1573940026715,216,HTTP Request_Запрос профиля игрока,200,OK,setUp Thread Group 1-1,text,true,,1079,1366,1,2,http://test-api.d6.dev.devcaz.com/v2/players/695,215,0,0
+1573940026715,216,UC_04_casexe_Запрос профиля игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,1079,1366,1,2,null,215,0,0
+1573940026830,196,HTTP Request_Запрос списка игр игроком с сортировкой,200,OK,Thread Group 2-1,text,true,,1056,1370,1,2,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,196,0,0
+1573940026830,196,UC_06_casexe_Запрос списка игр игроком с сортировкой,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,1056,1370,1,2,null,196,0,0
+1573940026931,183,HTTP Request_Запрос списка игр игроком,200,OK,setUp Thread Group 1-1,text,true,,1046,1360,1,2,http://test-api.d6.dev.devcaz.com/v2/games,183,0,0
+1573940026931,183,UC_05_casexe_Запрос списка игр игроком,200,"Number of samples in transaction : 2, number of failing samples : 0",setUp Thread Group 1-1,,true,,1046,1360,1,2,null,183,1,0
+1573940027027,171,HTTP Request_Запрос одной игры игроком по id,404,Not Found,Thread Group 2-1,text,false,Test failed: code expected something using /200/	Test failed: code expected something using /201/	,945,1364,1,2,http://test-api.d6.dev.devcaz.com/v2/games/694,171,0,0
+1573940027026,172,UC_07_casexe_Запрос одной игры игроком по id,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 2-1,,false,,945,1364,1,2,null,171,1,0
+1573940027115,174,HTTP Request_Запрос списка игр игроком с сортировкой,200,OK,setUp Thread Group 1-1,text,true,,1056,1370,1,2,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,174,0,0
+1573940027115,174,UC_06_casexe_Запрос списка игр игроком с сортировкой,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,1056,1370,1,2,null,174,0,0
+1573940027199,203,HTTP Request_Получение гостевого токена,200,OK,Thread Group 2-1,text,true,,3806,441,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,203,0,50
+1573940027402,0,HTTP Request_Получение гостевого токена-0,200,OK,Thread Group 2-1,text,true,,2867,0,0,0,null,0,0,0
+1573940027199,203,UC_01_casexe_Получение гостевого токена,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,3806,441,1,2,null,203,1,50
+1573940027290,169,HTTP Request_Запрос одной игры игроком по id,404,Not Found,setUp Thread Group 1-1,text,false,Test failed: code expected something using /200/	Test failed: code expected something using /201/	,945,1364,1,2,http://test-api.d6.dev.devcaz.com/v2/games/695,169,0,0
+1573940027289,169,UC_07_casexe_Запрос одной игры игроком по id,,"Number of samples in transaction : 1, number of failing samples : 1",setUp Thread Group 1-1,,false,,945,1364,1,2,null,169,1,0
+1573940027403,472,HTTP Request_Регистрация нового игрока,201,Created,Thread Group 2-1,text,true,,4215,1177,1,1,http://test-api.d6.dev.devcaz.com/v2/players,471,0,0
+1573940027874,1,HTTP Request_Регистрация нового игрока-0,200,OK,Thread Group 2-1,text,true,,3026,0,0,0,null,0,0,0
+1573940027403,472,UC_02_casexe_Регистрация нового игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,4215,1177,1,1,null,471,0,0
+1573940056831,250,HTTP Request_Получение гостевого токена,200,OK,setUp Thread Group 1-1,text,true,,2930,441,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,250,0,49
+1573940057081,0,HTTP Request_Получение гостевого токена-0,200,OK,setUp Thread Group 1-1,text,true,,1991,0,0,0,null,0,0,0
+1573940056832,249,HTTP Request_Получение гостевого токена,200,OK,Thread Group 2-1,text,true,,2918,441,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,249,0,48
+1573940057081,0,HTTP Request_Получение гостевого токена-0,200,OK,Thread Group 2-1,text,true,,1979,0,0,0,null,0,0,0
+1573940056830,250,UC_01_casexe_Получение гостевого токена,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,2930,441,1,2,null,250,2,49
+1573940056831,249,UC_01_casexe_Получение гостевого токена,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,2918,441,1,2,null,249,2,48
+1573940057082,223,HTTP Request_Регистрация нового игрока,201,Created,Thread Group 2-1,text,true,,3342,1177,1,2,http://test-api.d6.dev.devcaz.com/v2/players,223,0,0
+1573940057305,0,HTTP Request_Регистрация нового игрока-0,200,OK,Thread Group 2-1,text,true,,2153,0,0,0,null,0,0,0
+1573940057082,223,UC_02_casexe_Регистрация нового игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,3342,1177,1,2,null,223,1,0
+1573940057082,233,HTTP Request_Регистрация нового игрока,201,Created,setUp Thread Group 1-1,text,true,,3354,1177,1,2,http://test-api.d6.dev.devcaz.com/v2/players,233,0,0
+1573940057315,0,HTTP Request_Регистрация нового игрока-0,200,OK,setUp Thread Group 1-1,text,true,,2165,0,0,0,null,0,0,0
+1573940057082,233,UC_02_casexe_Регистрация нового игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,3354,1177,1,2,null,233,1,0
+1573940057316,402,HTTP Request_Авторизация под игроком,200,OK,setUp Thread Group 1-1,text,true,,5539,693,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,402,0,0
+1573940057718,0,HTTP Request_Авторизация под игроком-0,200,OK,setUp Thread Group 1-1,text,true,,2953,0,0,0,null,0,0,0
+1573940057316,402,UC_03_casexe_Авторизация под игроком,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,5539,693,1,2,null,402,0,0
+1573940057306,506,HTTP Request_Авторизация под игроком,200,OK,Thread Group 2-1,text,true,,5527,693,1,2,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,506,0,0
+1573940057812,0,HTTP Request_Авторизация под игроком-0,200,OK,Thread Group 2-1,text,true,,2941,0,0,0,null,0,0,0
+1573940057306,506,UC_03_casexe_Авторизация под игроком,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,5527,693,1,2,null,506,0,0
+1573940057719,2294,HTTP Request_Запрос профиля игрока,200,OK,setUp Thread Group 1-1,text,true,,1079,1366,1,2,http://test-api.d6.dev.devcaz.com/v2/players/698,2294,0,0
+1573940057718,2294,UC_04_casexe_Запрос профиля игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,1079,1366,1,2,null,2294,1,0
+1573940057813,2246,HTTP Request_Запрос профиля игрока,200,OK,Thread Group 2-1,text,true,,1079,1366,1,2,http://test-api.d6.dev.devcaz.com/v2/players/697,2246,0,0
+1573940057812,2246,UC_04_casexe_Запрос профиля игрока,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,1079,1366,1,2,null,2246,2,0
+1573940060014,231,HTTP Request_Запрос списка игр игроком,200,OK,setUp Thread Group 1-1,text,true,,1046,1360,1,2,http://test-api.d6.dev.devcaz.com/v2/games,231,0,48
+1573940060013,231,UC_05_casexe_Запрос списка игр игроком,200,"Number of samples in transaction : 2, number of failing samples : 0",setUp Thread Group 1-1,,true,,1046,1360,1,2,null,231,2,48
+1573940060060,250,HTTP Request_Запрос списка игр игроком,200,OK,Thread Group 2-1,text,true,,1046,1360,1,2,http://test-api.d6.dev.devcaz.com/v2/games,250,0,56
+1573940060060,250,UC_05_casexe_Запрос списка игр игроком,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 2-1,,true,,1046,1360,1,2,null,250,0,56
+1573940060246,171,HTTP Request_Запрос списка игр игроком с сортировкой,200,OK,setUp Thread Group 1-1,text,true,,1056,1370,1,2,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,171,0,0
+1573940060246,171,UC_06_casexe_Запрос списка игр игроком с сортировкой,200,"Number of samples in transaction : 1, number of failing samples : 0",setUp Thread Group 1-1,,true,,1056,1370,1,2,null,171,1,0
+1573940060310,182,HTTP Request_Запрос списка игр игроком с сортировкой,200,OK,Thread Group 2-1,text,true,,1056,1370,1,2,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,182,0,0
+1573940060310,182,UC_06_casexe_Запрос списка игр игроком с сортировкой,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 2-1,,true,,1056,1370,1,2,null,182,1,0
+1573940060418,205,HTTP Request_Запрос одной игры игроком по id,404,Not Found,setUp Thread Group 1-1,text,false,Test failed: code expected something using /200/	Test failed: code expected something using /201/	,945,1364,1,2,http://test-api.d6.dev.devcaz.com/v2/games/698,205,0,0
+1573940060418,205,UC_07_casexe_Запрос одной игры игроком по id,,"Number of samples in transaction : 1, number of failing samples : 1",setUp Thread Group 1-1,,false,,945,1364,1,2,null,205,0,0
+1573940060493,203,HTTP Request_Запрос одной игры игроком по id,404,Not Found,Thread Group 2-1,text,false,Test failed: code expected something using /200/	Test failed: code expected something using /201/	,945,1364,1,1,http://test-api.d6.dev.devcaz.com/v2/games/697,203,0,0
+1573940060493,204,UC_07_casexe_Запрос одной игры игроком по id,,"Number of samples in transaction : 1, number of failing samples : 1",Thread Group 2-1,,false,,945,1364,1,1,null,203,0,0
