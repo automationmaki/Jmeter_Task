@@ -145,6 +145,8 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
+          <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="true"/>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_02_casexe_Регистрация нового игрока" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -222,6 +224,8 @@
             </JSONPostProcessor>
             <hashTree/>
           </hashTree>
+          <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="true"/>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_03_casexe_Авторизация под игроком" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
@@ -291,6 +295,8 @@
             </DebugPostProcessor>
             <hashTree/>
           </hashTree>
+          <OnceOnlyController guiclass="OnceOnlyControllerGui" testclass="OnceOnlyController" testname="Once Only Controller" enabled="true"/>
+          <hashTree/>
         </hashTree>
         <TransactionController guiclass="TransactionControllerGui" testclass="TransactionController" testname="UC_04_casexe_Запрос профиля игрока" enabled="true">
           <boolProp name="TransactionController.includeTimers">false</boolProp>
